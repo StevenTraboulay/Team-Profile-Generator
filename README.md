@@ -28,7 +28,7 @@ dependencies needed for this would be; NPM Jest, inquirer and path.  jest is for
 
 ## Usage
 
-reach out first before executing its a rudemental function but can be finicky
+reach out first before executing its a rudemental function but can be finicky but follow link for walkthrough: https://drive.google.com/file/d/14jenz5rL8JUxz9fOB6Y1Nv0p8B7-6dj0/view
 
 ## License
       This project is licensed under the None license.
