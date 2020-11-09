@@ -46,8 +46,8 @@ function appMenu() {
             },
             {
                 type: "input",
-                name: "mangerEmail",
-                message: "What is the team manager's email?",
+                name: "managerEmail",
+                message: "What is the Manager's email?",
                 validate: answer => {
                     const pass = answer.match(
                         /\S+@\S+\.\S+/
@@ -57,6 +57,7 @@ function appMenu() {
                     }
                     return "Please enter a valid email address.";
                 }
+
             },
             {
                 type: "input",
