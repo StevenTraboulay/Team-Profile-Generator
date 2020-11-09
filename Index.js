@@ -108,7 +108,19 @@ function appMenu() {
 
     function addEngineer() {
         inquirer.prompt([
-           { 
+            {
+                type: "input",
+                name: "engineerName",
+                message: "What is the engineers's name?",
+                validate: answer => {
+                    if (answer !== ""){
+                        return true;
+                    }
+                    return "Please enter at least one character.";
+                }
+            },
+
+            { 
                type: "input",
                name: "engineerId",
                message: "What is your engineer's id?",
