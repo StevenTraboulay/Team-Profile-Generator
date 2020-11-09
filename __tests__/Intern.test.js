@@ -16,5 +16,5 @@ expect(e.getRole()).toBe(testValue);
 test("Can get school via getschol()", () =>{
     const testValue = "UCLA"
     const e = new Intern("foo", 1, "test@test.com", testValue);
-    expect(e.getschool()).toBe(testValue);
+    expect(e.getSchool()).toBe(testValue);
 });
